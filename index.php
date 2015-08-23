@@ -26,4 +26,9 @@ $router->post('/', function() use($router, $postHandler) {
     return $postHandler->parseTradeMessage($router->request->getBody());
 });
 
+// Placeholder
+$router->get('/', function() {
+    return 'Welcome';
+});
+
 $router->run();        

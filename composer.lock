@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e5788e42c3b298cde3a95891882fd5f0",
+    "hash": "91df32fe62d35347ad1289a2449dbe02",
     "packages": [
         {
             "name": "behat/behat",
@@ -218,6 +218,9 @@
             "include-path": [
                 "/"
             ],
+            "license": [
+                "BSD License"
+            ],
             "description": "PHP5 rewrite of HTTP_Request package (with parts of HTTP_Client). Provides\ncleaner API and pluggable Adapters:\n  * Socket adapter, based on old HTTP_Request code,\n  * Curl adapter, wraps around PHP's cURL extension,\n  * Mock adapter, to use for testing packages dependent on HTTP_Request2.\nSupports POST requests with data and file uploads, basic and digest\nauthentication, cookies, managing cookies across requests, proxies, gzip and\ndeflate encodings, redirects, monitoring the request progress with Observers..."
         },
         {
@@ -283,6 +286,9 @@
             "include-path": [
                 "/"
             ],
+            "license": [
+                "New BSD License"
+            ],
             "description": "The PEAR package contains:\n * the PEAR installer, for creating, distributing\n   and installing packages\n * the PEAR_Exception PHP5 error handling mechanism\n * the PEAR_ErrorStack advanced error handling mechanism\n * the PEAR_Error error handling mechanism\n * the OS_Guess class for retrieving info about the OS\n   where PHP is running on\n * the System class for quick handling of common operations\n   with files and directories\n * the PEAR base class\n  Features in a nutshell:\n  * full support for channels\n  * pre-download dependency validation\n  * new package.xml 2.0 format allows tremendous flexibility while maintaining BC\n  * support for optional dependency groups and limited support for sub-packaging\n  * robust dependency support\n  * full dependency validation on uninstall\n  * remote install for hosts with only ftp access - no more problems with\n    restricted host installation\n  * full support for mirroring\n  * support for bundling several packages into a single tarball\n  * support for static dependencies on a url-based package\n  * support for custom file roles and installation tasks"
         },
         {
@@ -343,33 +349,6 @@
                 "BSD License"
             ],
             "description": "Selection of methods that are often needed when working with XML documents.  Functionality includes creating of attribute lists from arrays, creation of tags, validation of XML names and more."
-        },
-        {
-            "name": "psinetron/php_socketio_client",
-            "version": "0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paulinthought/php_socketio_client.git",
-                "reference": "24b31fed2bc0fec59eedc9bf8f770af213b22c9f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paulinthought/php_socketio_client/zipball/24b31fed2bc0fec59eedc9bf8f770af213b22c9f",
-                "reference": "24b31fed2bc0fec59eedc9bf8f770af213b22c9f",
-                "shasum": ""
-            },
-            "type": "library",
-            "authors": [
-                {
-                    "name": "psinetron",
-                    "email": "psinetron@mail.ru"
-                }
-            ],
-            "description": "PHP client for socket.io (websocket client)",
-            "support": {
-                "source": "https://github.com/paulinthought/php_socketio_client/tree/0.0.2"
-            },
-            "time": "2015-08-21 22:41:16"
         },
         {
             "name": "slim/slim",

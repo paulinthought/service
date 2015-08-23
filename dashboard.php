@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <script src='http://localhost:3000/socket.io/socket.io.js'></script>
+        <script src='http://<?php echo $_SERVER['HTTP_HOST']; ?>:3000/socket.io/socket.io.js'></script>
     </head>
     <body>
         <div id="status">
@@ -11,7 +11,7 @@
         </ul>
         
         <script>
-            var socket = io('http://localhost:3000');
+            var socket = io('http://<?php echo $_SERVER['HTTP_HOST']; ?>:3000');
             
             var dash = {
                 addGraphData: function addGraphData(messageArray) {

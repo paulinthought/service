@@ -2,3 +2,5 @@ nbproject
 consumer/node_modules
 consumer/npm-debug.log
 composer.phar
+bin
+vendor
